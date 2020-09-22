@@ -17,7 +17,7 @@ int main() {
 		if (temp == "X") {
 			break;
 		}
-		
+	}	
 		total = total + atoi(temp);
 
 	scanf("Enter tax percent:  %3s", temp);
