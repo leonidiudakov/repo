@@ -10,7 +10,7 @@ char temp[3] = "";
 int main() {
 	puts("Enter price of items, X to end.\n\n");
 
-	while(temp != "X")
+	while(temp != "X") {
 		scanf("Item Price: $%s", temp);
 
 		count++;
